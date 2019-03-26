@@ -1,1 +1,1 @@
-from .ndarray import ndarray, array
+from .ndarray import ndarray, array, compute

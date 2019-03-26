@@ -1,7 +1,7 @@
 """The petalisp setup.
 
 See:
-https://github.com/marcoheisig/petalisp
+https://github.com/marcoheisig/petalisp-for-python
 """
 
 from setuptools import setup, find_packages
@@ -14,12 +14,12 @@ def readme():
 
 setup(
     name='petalisp',
-    version='0.0.1',
+    version='0.1.0',
     description='A powerful array programming library.',
     long_description=readme(),
     long_description_content_type='text/x-rst',
     license='MIT',
-    url='https://github.com/marcoheisig/petalisp',
+    url='https://github.com/marcoheisig/petalisp-for-python',
     author='Marco Heisig',
     author_email='marco.heisig@fau.de',
     install_requires=['numpy', 'cl4py'],
